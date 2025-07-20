@@ -34,11 +34,4 @@ Il est basé sur une carte **Raspberry Pi Pico (RP2040)**.
 
 ---
 
-## 🗂️ Structure du projet
 
-Aht20_bmp280_Rp2040/
-├── main.py # Boucle principale : lecture + affichage
-├── aht10.py # Bibliothèque pour le capteur AHT10
-├── bmp280.py # Bibliothèque pour le capteur BMP280
-├── sh1106.py # Pilote de l'écran OLED SH1106
-└── code_sh1106.py # Script de test de l’écran OLED
