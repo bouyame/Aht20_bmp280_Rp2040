@@ -1,5 +1,5 @@
 # 🌡️💧📟 Aht20_bmp280_Rp2040  
-**Lecture des capteurs BMP280 et AHT10 avec écran OLED SH1106 en MicroPython (RP2040)**
+**Lecture des capteurs BMP280 et AHT10 avec écran OLED SH1106( SSD1306) en MicroPython (RP2040)**
 
 ---
 
