@@ -23,6 +23,6 @@ Ce projet lit les données de température, pression et humidité à l'aide de :
 - `aht10.py` : bibliothèque AHT10
 - `bmp280.py` : bibliothèque BMP280
 - `sh1106.py` : pilote écran OLED
-
+-  code _sh1106.py :test écran oled sh1106 
 ## Auteur
 - [Bouya Mohamed](https://github.com/bouyame)
