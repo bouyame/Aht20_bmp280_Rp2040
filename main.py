@@ -29,9 +29,9 @@ while True:
             continue
 
         oled.fill(0)
-        oled.text("BMP280: {:.1f}C".format(t_bmp), 0, 10)
-        oled.text("Pres: {:.0f} hPa".format(p_bmp), 0, 20)
-        oled.text("AHT10: {:.1f}C".format(t_aht), 0, 40)
+        oled.text("T_BMP280: {:.1f} C".format(t_bmp), 0, 10)
+        oled.text("Pr: {:.0f} hPa".format(p_bmp), 0, 20)
+        oled.text("T_AHT10: {:.1f} C".format(t_aht), 0, 40)
         oled.text("Hum: {:.0f}%".format(h_aht), 0, 50)
         oled.show()
 
