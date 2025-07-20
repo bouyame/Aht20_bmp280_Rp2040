@@ -11,10 +11,10 @@ Ce projet lit les données de température, pression et humidité à l'aide de :
 
 | Module     | Pico GPIO |
 |------------|-----------|
-| OLED SDA   | GP0       |
-| OLED SCL   | GP1       |
-| BMP SDA    | GP2       |
-| BMP SCL    | GP3       |
+| OLED SDA   | GP20      |
+| OLED SCL   | GP21      |
+| BMP SDA    | GP14      |
+| BMP SCL    | GP15      |
 | GND        | GND       |
 | VCC        | 3.3V      |
 
