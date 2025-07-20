@@ -1,28 +1,38 @@
-# Aht20_bmp280_Rp2040
-Lecture des capteurs BMP280 et AHT20 avec OLED SH1106 en MicroPython
-# Capteurs BMP280 + AHT10 + OLED SH1106 en MicroPython (RP2040)
+# 🌡️💧📟 Aht20_bmp280_Rp2040  
+**Lecture des capteurs BMP280 et AHT10 avec écran OLED SH1106 en MicroPython (RP2040)**
 
-Ce projet lit les données de température, pression et humidité à l'aide de :
-- 🌡 BMP280
-- 💧 AHT10
-- 📟 Écran OLED SH1106
+---
 
-## Schéma de câblage
+## 📖 Description  
+Ce projet en **MicroPython** permet de lire et d'afficher en temps réel les données de **température**, **pression** et **humidité** à l’aide des capteurs **BMP280** et **AHT10**, avec affichage sur un écran **OLED SH1106**.  
+Il est basé sur une carte **Raspberry Pi Pico (RP2040)**.
 
-| Module     | Pico GPIO |
-|------------|-----------|
-| OLED SDA   | GP20      |
-| OLED SCL   | GP21      |
-| BMP SDA    | GP14      |
-| BMP SCL    | GP15      |
-| GND        | GND       |
-| VCC        | 3.3V      |
+---
 
-## Fichiers
-- `main.py` : boucle principale
-- `aht10.py` : bibliothèque AHT10
-- `bmp280.py` : bibliothèque BMP280
-- `sh1106.py` : pilote écran OLED
--  code _sh1106.py :test écran oled sh1106 
-## Auteur
-- [Bouya Mohamed](https://github.com/bouyame)
+## 🧰 Matériel nécessaire  
+
+- [x] Raspberry Pi Pico (RP2040)  
+- [x] Capteur **BMP280** (pression + température)  
+- [x] Capteur **AHT10** ou **AHT20** (humidité + température)  
+- [x] Écran **OLED SH1106** (I2C, 128x64)  
+- [x] Fils Dupont  
+
+---
+
+## 🔌 Schéma de câblage
+
+| Module      | GPIO Pico |
+|-------------|------------|
+| OLED SDA    | GP20       |
+| OLED SCL    | GP21       |
+| BMP280 SDA  | GP14       |
+| BMP280 SCL  | GP15       |
+| GND         | GND        |
+| VCC         | 3.3V       |
+
+> 💡 Note : Les capteurs utilisent l’interface **I2C**. Vous pouvez adapter les GPIO selon vos besoins.
+
+---
+
+## 🗂️ Structure du projet
+
