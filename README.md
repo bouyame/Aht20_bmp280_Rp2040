@@ -34,4 +34,26 @@ Il est basé sur une carte **Raspberry Pi Pico (RP2040)**.
 
 ---
 
+---
+
+## ▶️ Utilisation  
+
+1. Flashez MicroPython sur votre Raspberry Pi Pico.  
+2. Copiez tous les fichiers `.py` dans le système de fichiers du Pico (via Thonny, rshell, ou autre).  
+3. Exécutez `main.py` : les mesures s’affichent en direct sur l’écran OLED.
+
+---
+
+
+## 👤 Auteur  
+**Mohamed Bouya**  
+Projet open-source sous licence libre.  
+Vous êtes libre de modifier, améliorer et partager !
+
+---
+
+## 📜 Licence  
+Ce projet est sous licence MIT – voir le fichier `LICENSE` pour plus d'informations.
+
+
 
